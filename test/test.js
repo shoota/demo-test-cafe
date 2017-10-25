@@ -12,5 +12,5 @@ test('Type the developer name, obtain the header text and check it', async t => 
     const articleHeader = await getElementById('article-header');
     const headerText = articleHeader.innerText;
 
-    assert.equal(headerText, 'Thank you, John!');
+    assert.equal(headerText, 'Thank you, John Smith!');
 });
