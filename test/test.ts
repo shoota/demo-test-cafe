@@ -1,6 +1,10 @@
-const assert = require("assert");
-import {Selector} from 'testcafe';
-const getElementById = Selector(id => document.querySelector(`#${id}`));
+const assert = require("assert")
+import {Selector} from 'testcafe'
+
+
+const initiliazer: any = (id: string) => { return document.querySelector(`#${id}`) }
+
+const getElementById = Selector( initiliazer );
 fixture('Example page')
     .page('http://devexpress.github.io/testcafe/example');
 

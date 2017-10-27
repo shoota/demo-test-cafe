@@ -28,6 +28,7 @@
     "testcafe": "^0.18.2"
   },
   "devDependencies": {
+    "@types/node": "^8.0.47",
     "typescript": "^2.5.3"
   }
 }
